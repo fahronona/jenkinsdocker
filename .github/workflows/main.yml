@@ -1,7 +1,9 @@
 name: testcicd
 on:
+  push:
+    branches: [ "master" ]
   pull_request:
-    types: [opened, synchronize]
+    branches: [ "master" ]
 
 jobs:
   your_job_name:
