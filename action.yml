@@ -1,1 +1,16 @@
-
+name: 'Run Jenkins Job and get build result'
+description: 'Triggers Jenkins Job and get build result'
+author: 'Toptal'
+inputs:
+  jenkins_url:
+    required: true
+    description: 'Jenkins domain URL'
+  jenkins_user:
+    required: true
+    description: 'Jenkins username'
+  jenkins_token:
+    required: true
+    description: 'Jenkins API token that belongs to jenkins_user'
+  job_name:
+    required: true
+    description: 'Jenkins job to triggered and follow up'
