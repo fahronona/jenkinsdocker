@@ -1,6 +1,6 @@
 name: 'Run Jenkins Job and get build result'
 description: 'Triggers Jenkins Job and get build result'
-author: 'Toptal'
+author: 'fahronona'
 inputs:
   jenkins_url:
     required: true
