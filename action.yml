@@ -14,3 +14,6 @@ inputs:
   job_name:
     required: true
     description: 'Jenkins job to triggered and follow up'
+  runs:
+    using: 'node12'
+    main: 'bin/www'
