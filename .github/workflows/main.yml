@@ -13,7 +13,7 @@ jobs:
       - name: Trigger learnjenkins job
         uses: fahronona/jenkinsdocker@master
         with:
-          jenkins_url: "http://192.168.64.2:8080/"
+          jenkins_url: "http://110.137.193.50:8080/"
           jenkins_user: ${{ secrets.JENKINS_USER }}
           jenkins_token: ${{ secrets.JENKINS_TOKEN }}
           proxy: ${{ secrets.JENKINS_PROXY }}
